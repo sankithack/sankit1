@@ -1,6 +1,6 @@
 <html ng-app="app" >
 	<head>
-		<title ng-bind="state.Stats.Title">Cloud Torrent</title>
+		<title ng-bind="state.Stats.Title">Sankit's</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css/Lato/Lato.css">
 		<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
@@ -12,7 +12,11 @@
 		<div ng-if="!connected" class="connect-warning ui inverted vertical masthead center aligned segment">
 			<div class="ui text container">
 			<h1 class="ui inverted header">
-				Disconnected
+				wait guys... :)</br>
+				</br>
+				try server sankittorrent,digitalsankit  :D</br>
+				</br>
+				if you stuck here, make sure you enter "https" not "http"...
 			</h1>
 			<h1 class="ui inverted header">
 				<i class="red lightning icon"></i>
@@ -22,14 +26,33 @@
 		<!-- TITLE ===================== -->
 		<div class="title">
 			<h2>
-				<a href="https://github.com/jpillora/cloud-torrent"
-					target="_blank"
-					ng-init="logoHover = false"
-					ng-mouseover="logoHover = true"
-					ng-mouseleave="logoHover = false">
-					<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i>  {{ state.Stats.Title }}
+				<a href=""
+				target="_blank"
+				ng-init="logoHover = false"
+				ng-mouseover="logoHover = true"
+				ng-mouseleave="logoHover = false">
+				<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i>  {{ state.Stats.Title }}
 				</a>
 			</h2>
+			
+			<h3>
+			<div class="text">
+				Hi guys..</br>
+				Mysecretid's here..</br>
+				</br>
+				Please don't delete any torrent here..</br>
+							
+				</br>
+				Server 1 = https://sankittorrent.herokuapp.com</br>
+				Server 2 = https://digitalsankit.herokuapp.com</br>
+				</br>
+				Please use as fair guys.. Cause if doesn't, your torrent will failed leeching..</br>
+				If you wanna mass leeching, better use zbigz.. Contact me..</br>
+				I will rebuild this site if seems stuck.. So your torrent will be reset..</br>
+				Enjoy.. :D
+			</div>
+			</h3>
+			
 			<div class="status">
 				<i ng-show="request.count > 0"
 					class="ui circular loading repeat icon"></i>
@@ -55,9 +78,9 @@
 		<section class="downloads" ng-controller="DownloadsController" ng-include src="'template/downloads.html'"></section>
 
 		<footer>
-			<span>github.com/<a href="https://github.com/jpillora" target="_blank">jpillora</a>/<a href="https://github.com/jpillora/cloud-torrent" target="_blank">cloud-torrent</a> version {{ state.Stats.Version }}	-	</span>
+			<span>Made with ❤ by <a href="" target="_blank">Sankit</a> | version {{ state.Stats.Version }}	-	</span>
 			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected	-	</span>
-			<span><a href="https://golang.org" target="_blank">Go</a> {{ state.Stats.Runtime }}</span>
+			<span><a href="" target="_blank">Sankit</a> {{ state.Stats.Runtime }}</span>
 		</footer>
 
 		<script src="js/vendor/query-string.js"></script>
